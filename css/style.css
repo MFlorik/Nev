@@ -1,0 +1,667 @@
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial ;
+}
+body{background-image: url(../img/bg.jpg);}
+a{color: #fff;}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/header.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+}
+header .bg{padding: 50px 80px 50px 170px;}
+.logo{
+    text-transform: uppercase;
+    border-bottom: 6px solid #F9BF3B ;
+    font-size: 4em;
+    float: left;
+}
+.zagalovok{
+    width: 100%;
+    color:#fff;
+    background-color: #351B39;
+    font-size: 4em;
+    text-align: center;
+    padding: 30px 0;
+}
+/* menuu */
+
+.menu{
+    margin-top: 25px;
+    float: right;
+    margin-bottom: 10px;
+    width:1000px;
+    list-style: none;
+    font-size: 2em;
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 50px;
+    position: relative;
+}
+.menu li:last-child{margin-right: 0;}
+.none li{
+    left:-9999px;
+}
+.menu li a{
+    float: right;
+    display: block;
+    padding: 5;
+    color: #fff;
+    text-decoration:none;
+}
+.menu li a:hover{
+    color: #fff;
+}
+.menu_botton{
+    float: right;
+}
+/* НАСТРАИВАЕМ ВЫПАДАЮЩИЕ ЭЛЕМЕНТЫ!!! */
+.menu ul{
+    float: right;
+    list-style:none;
+    left:-9999px;
+    opacity:0;
+    transition: 1s ease;
+    /* position: absolute; */
+}
+.mememe a:hover .none li{
+    left:0;
+}
+.menu li:hover ul{
+    left:0;
+    opacity:1;
+}
+.menu li:hover ul a{
+    text-decoration:none;
+}
+.menu li:hover ul li a:hover{
+    color: #F9BF3B;
+}
+/* Полоски */
+.square{
+    position: relative;
+    width: 50px;
+    height: 40px;
+}
+.square:before{
+  content: "";
+  display: block;
+}
+.menu_botton span{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.two_line{margin-top: 35%;}
+.three_line{margin-top: 75%;}
+.menu_botton span:hover{background-color: #F9BF3B;}
+/* Закончили с меню */
+
+/* Text of ded */
+.info{
+    margin-top: 200px;
+    width: 600px;
+    min-height: 100px;
+    font-size: 2.3em;
+}
+.second{
+    margin-top: 50px;
+}
+/* Фото */
+.images{
+    float: right;
+}
+.pho{
+    width: 245px;
+    height: 245px;
+    border-radius: 10px;
+    background-position:center;
+    display: inline-block;
+    margin-right: 80px;
+    background-repeat: no-repeat;
+}
+.fimg{
+    background-image: url(../img/5.png);
+    background-size: 100%;
+}
+.simg{
+    background-image: url(../img/8-1.png);
+    background-size: auto 100%;
+}
+/* TExt */
+.seeall{
+    margin-top: 25px;
+    width: 190px;
+    height: 190px;
+    float: right;
+    text-align: center;
+    background-image: url(../img/kryg.png);
+    background-repeat: no-repeat;
+}
+.seeall .text{
+    padding: 56px 0 93px;
+    border-radius: 100%;
+    font-size: 3em;
+    color: #351B39;
+}
+/* Услуги */
+.button{margin-top: 135px;}
+.button a{
+    width: 100px;
+    background-color: #F9BF3B;
+    color:#351B39;
+    border-radius: 80px;
+    padding: 35px 150px;
+    font-size: 3.5em;
+}
+
+
+
+/* block 2 */
+.block2{width: 1800px;margin:80px auto}
+.textimg1{
+    margin-right: 70px;
+    height: 500px;
+    width: 1800px;
+    background-image: url(../img/textimg1.png);
+    background-repeat: no-repeat;
+}
+.textimg1 p{
+    width: 850px;
+    margin: 0 100px 0 640px ;
+    padding-top: 90px;
+    font-size: 2em;
+    line-height: 48px;
+    text-align: center;
+}
+.textimg2{
+    margin-top: 200px;
+    height: 500px;
+    width: 1800px;
+    background-image: url(../img/textimg2.png);
+    background-repeat: no-repeat;
+}
+.textimg2 p{
+    width: 850px;
+    margin-left: 50px;
+    padding-top: 140px;
+    font-size: 33px;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+/* Фотогалерея */
+.photogalerey{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.aller{
+    width: 1540px;
+    margin: 50px auto 0;
+}
+.photogalerey .img{
+    width: 1700px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.imgsty{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+/* .imgsty:last-child{margin-right: 0;} */
+
+/* Photo */
+.q{background-image: url(../img/1.jpg); background-size: 100% auto;}
+.w{background-image: url(../img/2.jpg); background-size: 100% auto;}
+.e{background-image: url(../img/3.jpg); background-size: 100% auto;}
+.r{background-image: url(../img/4.jpg); background-size: auto 100%;}
+.t{background-image: url(../img/5.jpg); background-size: 100% auto;}
+.y{background-image: url(../img/6.jpg); background-size: 100% auto;}
+.u{background-image: url(../img/7.jpg); background-size: 100% auto;}
+.i{background-image: url(../img/8.jpg); background-size: auto 100%;}
+.o{background-image: url(../img/9.jpg); background-size: 100% auto;}
+.p{background-image: url(../img/10.jpg); background-size: 100% auto;}
+
+
+
+
+
+/* Сколько стоит */
+
+.bgr{
+    padding: 50px 80px 50px 170px;
+    background-color:rgba(53, 27, 57, 0.5);
+    width: auto;
+    height: auto;
+    margin-bottom: 60px;
+}
+.money{
+    margin: 0 auto;
+    width: 1600px;
+    min-height: 125px;
+    color: #000;
+    font-size: 3.8em;
+}
+.style{
+    text-align: center;
+    padding: 35px 0;
+    width: 25%;
+    float: left;
+    background-color: #fff;
+}
+.style:first-child{border-radius: 10px 0 0 0;}
+.style:last-child{border-radius: 0 10px 0 0;}
+.obsh{
+    text-align: center;
+    padding: 20px 0;
+    width: 25%;
+    float: left;
+    border-radius: 10px;
+}
+.perv{
+    position: relative;
+    top: -135px;
+    transition: .2s ease;
+    background-color: #fff;
+}
+.perv:hover{
+    padding-top: 140px;
+    background-color: #ffffff00;
+    color: #F9BF3B;
+}
+.vtoroi{
+    position: relative;
+    top: -135px;
+    transition: .2s ease;
+    background-color: #fff;
+}
+.vtoroi:hover{
+    padding-top: 140px;
+    background-color: #ffffff00;
+    color: #F9BF3B;
+} 
+.treti{
+    position: relative;
+    top: -135px;
+    transition: .2s ease;
+    background-color: #fff;
+}
+.treti:hover{
+    padding-top: 140px;
+    background-color: #ffffff00;
+    color: #F9BF3B;
+} 
+.chet{
+    position: relative;
+    top: -135px;
+    transition: .2s ease;
+    background-color: #fff;
+}
+.chet:hover{
+    padding-top: 140px;
+    background-color: #ffffff00;
+    color: #F9BF3B;
+} 
+.centerneri{
+    text-align: center;
+    background-color: #fff;
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+/* Услуги */
+.inform{
+    margin: 0 auto;
+    padding: 65px 70px;
+    background-color: #fff;
+    margin-bottom: 55px;
+    width: 1710px;
+}
+.plos{
+    padding-bottom: 100px;
+    height: 200px;
+}
+.plos:last-child{padding-bottom: 0;}
+.plos .text{
+    float: left;
+    width: 855px;
+}
+.imgg img{
+    width: 200px;
+    height: 200px;
+    background-color: #F9BF3B;
+    border-radius: 10px;
+    margin-right: 55px;
+}
+.text p{
+    width: 500px;
+    height: auto;
+    font-size: 1.8em;
+    margin-right: 50px ;
+}
+.otstyp{margin: 50px 0;}
+
+/* Kontakti */
+
+.contcti{
+    background-color: #351B39;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 55px;
+}
+.informt{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+#cont{
+    color: #fff;
+    background-color: #351B39;
+    text-align: center;
+    font-size: 4em;
+    padding: 30px 0;
+    width: 100%;
+}
+.adress{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    margin: 80px auto 0;
+}
+.adress p{
+    font-size: 3em;
+}
+.map{
+    margin: 16px 0; 
+    float: right;
+    width: 50%;
+    height: 570px;
+    background-color: #fff;
+}
+.ssilki{
+    width:354px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.ofer{
+    color: black;
+    background-color: #c372cf;
+    font-size: 2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 2%;
+    transition: 0.4s ease;
+}
+.ofer:last-child{
+    margin-right: 0;
+}
+.ofer:hover{
+    background-color: #351B39;
+}
+
+/* Foooooooooooooter Konec */
+footer{
+    width: 100% -50px;
+    min-height: 10px;
+    background-color: #c272cf66;
+    padding: 15px 25px;
+}
+footer .logo{
+    float: none;
+}
+.soc{
+    float: right;
+    min-width: 150px;
+    height: 55px;
+    margin-top: 10px;
+}
+.all{
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+}
+.all:last-child{
+    padding-right: 90px;
+}
+.nana{color: #000;font-size:1em;}
+.ter1{
+    opacity: 0;
+    transition: 1s ease;
+}
+.ter2{
+    opacity: 0;
+    transition: 1s ease;
+}
+.im1:hover .ter1{opacity: 1;
+    transition: 1s ease;}
+.im2:hover .ter2{opacity: 1;
+    transition: 1s ease;}
+
+
+/* Sranyi knopki */
+#wrap{
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+}
+.Creaters{
+    margin-top: 20px;
+    background-color: #351B39;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+    padding: 5px 10px;
+    transition: 1s ease;
+}
+a{
+    transition: 1s ease;}
+.Creaters:hover{
+    background-color: #72cccf66;
+}
+.Creaters:hover a{
+    transition: 1s ease;
+    color: #000;
+}
+.Creaters:active{
+    background-color: #ffffff00;
+}
+.Creaters:active a{
+    transition: 2s ease;
+    color: #c372cf00;
+}
+#window{
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    border-radius: 10px;
+}
+#window p{
+    background-color: #e387f18f;
+    font-size: 2em;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px 0;
+    width: 80%;
+}
+#window li{
+    margin-left: 10px;
+}
+.close{
+    margin-left: 364px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+
+/* Оптимизация */
+/* Под ноуты */
+@media screen and (max-width: 1366px) {
+    .logo{font-size: 3em;}
+    header .bg{padding: 50px 70px 50px 70px;}
+    .menu{width: 700px;font-size: 1em;}
+    .square{width: 20px;height: 20px;}
+    .menu_botton span{height: 10%;}
+    .info{margin-top: 100px;font-size: 1.5em;}
+    .pho{width: 175px;height: 175px;}
+    .seeall{background-size: 125px;}
+    .seeall .text{font-size: 1.4em;float: left;padding: 40px 20px;}
+    .button {margin-top: 80px;}
+    .button a{width: 70px;padding: 15px 80px;font-size: 2em;}
+    .block2{width: 1000px;}
+    .textimg1{width: 1000px;height: 300px;background-size: 100% 100%;}
+    .textimg1 p{width: 550px;margin-left: 400px;font-size: 1.8em;padding-top: 40px;line-height: 30px;}
+    .textimg2{width: 1000px;height: 300px;background-size: 100% 100%;}
+    .textimg2 p{width: 550px;margin-left: 30px;font-size: 1.8em;padding-top: 40px;line-height: 30px;}
+    .aller{width: 1050px;}
+    .photogalerey .img{width: 1050px;;margin-bottom: -90px;}
+    .imgsty{width: 200px;height: 200px;}
+    .money{width: 1050px;font-size: 2em;}
+    .perv{top: -110px}
+    .perv:hover{padding-top: 100px;}
+    .vtoroi{top: -110px}
+    .vtoroi:hover{padding-top: 100px;}
+    .treti{top: -110px}
+    .treti:hover{padding-top: 100px;}
+    .chet{top: -110px}
+    .chet:hover{padding-top: 100px;}
+    .bgr{padding: 50px 80px;}
+    .centerneri{margin-top: 20px;}
+    .inform{width: 1050px;}
+    .plos{height: 100px;padding-bottom: 20px;}
+    .imgg img{width: 100px; height: 100px;}
+    .text p{width: 300px;font-size: 1.1em;}
+}
+@media screen and (max-width: 1810px){
+    header .bg{padding: 50px 70px 50px 20px;}
+}
+/* Под телефоны */
+@media screen and (max-width: 500px){
+    .zagalovok{
+        font-size:2em;
+    }
+    .inform{
+        width: 90%;
+        padding: 0;
+        height: 700px;
+    }
+    .imgg img{
+        width: 15%;
+        height: 15%;
+        margin-right: 2%;
+    }
+    .text:first-child{
+        padding: 2%;
+    }
+    .plos .text{
+        width: 96%;
+    }
+    .text p{
+        width: 79%;
+        margin-right: 0;
+        background-color: rgba(249, 191, 59, 0.5);
+        border-radius: 5px;
+        padding: 1%;
+        margin-right: 0;
+    }
+
+
+    .bgr{
+        padding: 30px 10px;
+    }
+    .bgr .money{
+        width: 400px;
+        font-size: 1em;
+        min-height: 40px;
+    }
+    .style{
+        padding: 10px 0;
+    }
+    .obsh{padding: 12px 0;}
+    .perv{top: -37px}
+    .perv:hover{padding-top: 40px;}
+    .vtoroi{top: -37px}
+    .vtoroi:hover{padding-top: 40px;}
+    .treti{top: -37px}
+    .treti:hover{padding-top: 40px;}
+    .chet{top: -37px}
+    .chet:hover{padding-top: 40px;}
+
+    .informt{width: 100%;}
+    .adress{
+        width: 100%;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .map{
+        width: 100%;
+    }
+    #window{
+        width: 400px;
+        height: 770px;
+    }
+    footer .logo{font-size: 2em;}
+}
+@media screen and (max-width: 417px){
+    .text p{
+        font-size: 0.99em;
+    }
+    .adress{font-size: 0.7em}
+}
+@media screen and (max-width: 409px){
+    .text p{font-size: 0.955em}
+    .bgr .money{width: 300px;font-size:0.8em;}
+    #window{
+        font-size:0.78em;
+        width: 300px;
+        height: 585px;
+    }
+    #window p{
+        font-size:1em;
+    }
+    @media screen and (max-width: 409px){
+        .text p{
+            font-size: 0.9em;
+        }
+        .adress{font-size: 0.6em;}
+        .ssilki{font-size: 0.8em;width: 291px;}
+    }
+}
+
+
+
+
